@@ -1,3 +1,7 @@
+// EXPLANATION:
+// All 3 methods are asynchronous
+
+
 const { Observable } = rxjs;
 const { ajax } = rxjs.ajax; // = require("rxjs/ajax")
 const { map, catchError } = rxjs.operators;

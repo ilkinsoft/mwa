@@ -1,4 +1,6 @@
-// EXPLANATION
+// EXPLANATIONS:
+
+EXERCISE 1:
 // First we called console.log('Start') statement, so JS engine puts in Stack. 
 // It will print 'Start' message and finishes so that this line will pop.
 // Then we called array.removeNum() function, it also goes to stack. But, because it is 
@@ -10,15 +12,5 @@
 // That's why 'Finish' will be printed and pops from Stack before.
 // Then, the result of removeNum function console.log(result) will go to Stack, prints array, and pops. 
 
-Array.prototype.removeNum =  function(number){
-    const arr = this
-    return new Promise(function(resolve, reject){
-        resolve(arr.filter(val => val != number))
-    })
-}
-
-array = [1,3,4,2,1,5]
-
-console.log('Start')
-array.removeNum(1).then(result=> console.log(result));
-console.log('Finish')
+EXERCISE 2:
+// All 3 methods are asynchronous.
