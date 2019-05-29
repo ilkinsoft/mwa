@@ -1,3 +1,8 @@
+// EXPLANATION:
+// SORRY PROFESSOR, I IMPLEMENTED ALL 3 DIFFERENT METHODS OF READING FILE, 
+// BUT I COULDN'T SEE ANY DIFFERENCE BETWEEN THEM. MAYBE MY PC IS TOO FAST :)
+
+
 const fs = require('fs');
 const { promisify } = require('util')
 
@@ -19,4 +24,3 @@ const server = require('http').createServer(function (req, res) {
     var rs = fs.createReadStream('./big.file').pipe(res)
 
 }).listen(4000, () => console.log('listening 4000'));
-
