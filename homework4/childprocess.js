@@ -1,18 +1,13 @@
 const fs = require('fs');
+var path = require("path");
 
-const longOperation = () => {
+process.on('message', (fileName) => {
 
-    var rs = fs.createReadStream('./big.file').pipe(res)
+    var readable = fs.createReadStream(path.join(__dirname, fileName), 'utf8');
 
-    // let sum = 0
-    // for(let i=0; i< 10000; i++){
-    //     sum+=i
-    // }
-    // return sum
-}
+    readable.on('data', function (chunk) {
 
-process.on('message', (msg) => {
-    const sum = longOperation()
-    process.send(sum)
-    process.exit()
+        process.send(chunk);
+        process.send('ex')
+    })
 })
