@@ -1,0 +1,5 @@
+::1 - - [04/Jun/2019:19:41:27 +0000] "GET / HTTP/1.1" 404 1278 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+::1 - - [04/Jun/2019:19:41:54 +0000] "GET /grades HTTP/1.1" 200 118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+::1 - - [04/Jun/2019:19:42:37 +0000] "GET /grades/2 HTTP/1.1" 200 59 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+::1 - - [04/Jun/2019:19:43:13 +0000] "GET /grades/1 HTTP/1.1" 200 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+::1 - - [04/Jun/2019:19:43:22 +0000] "GET /grades HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
