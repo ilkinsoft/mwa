@@ -1,0 +1,17 @@
+
+_id:ObjectId("5cf749f69cff1d286c7cd255")
+name:"C# Programming"
+author:"Jackson Martinez"
+isbn:1112223334441
+isBorrowed:true
+returnDate:2019-10-06T05:00:00.000+00:00
+dueDate:2019-12-06T05:00:00.000+00:00
+keywords:Array
+    0:"programming"
+    1:"dotnet"
+    2:"software"
+    3:"c#"
+borrowedStudent:Object
+    name:"Ilkin Alimov"
+    phone:"111-222-3344"
+    email:"e-ilkin@msn.com"
