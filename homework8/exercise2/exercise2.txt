@@ -1,0 +1,3 @@
+To increase our Library application performance in homework 7, 
+we can add index for column 'keywords', 'author' and 'returnDate'. Because
+librarian mostly makes search on these fields.
