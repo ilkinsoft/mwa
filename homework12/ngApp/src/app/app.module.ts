@@ -16,10 +16,4 @@ import { CounterComponent } from './counter.component';
   bootstrap: [AppComponent]
 })
 export class AppModule {
-
-  change(e:string): void{
-
-    // this.componentCounterValue = e;
-    console.log(e)
-  }
 }
