@@ -1,6 +1,6 @@
 const express = require('express')
 const MongoClient = require('mongodb').MongoClient
-const client = new MongoClient('mongodb://localhost:27017', { useNewUrlParser: true })
+const client = new MongoClient('cluster0-4k3cn.gcp.mongodb.net', { useNewUrlParser: true })
 var bodyParser = require('body-parser');
 let db
 let app = express()

@@ -1,0 +1,10 @@
+<p>
+  users works!
+</p>
+
+<div *ngIf="users === null">Loading..</div>
+<ul ngClass="user-list">
+	<li *ngFor="let user of users">
+		<a [routerLink]="['/users', user.login.uuid]">{{user.name.first}} {{user.name.last}}</a>
+	</li>
+</ul>
